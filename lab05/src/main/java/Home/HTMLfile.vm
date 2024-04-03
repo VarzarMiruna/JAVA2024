@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<body>
+<ol>
+    #foreach($document in $documents)
+    <li>
+        <p> Name : $document.getName() </p>
+        <ul>
+            <li><p> ID : $document.getId() </p></li>
+            <li><p> Type : $document.getTitle() </p></li>
+            <li><p> Path : $document.getLocation() </p></li>
+            <li><p> Tags :
+                #if($document.getTags().size() == 0)
+                none</p>
+                #else
+                </p>
+                <ul>
+                    #foreach($tag_name in $document.getTags().keySet())
+                    <li>$tag_name : $document.getTags().get($tag_name)</li>
+                    #end
+                </ul>
+                #end
+            </li>
+        </ul>
+    </li>
+    #end
+</ol>
+</body>
+</html>
