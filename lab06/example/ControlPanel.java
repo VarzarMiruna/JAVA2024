@@ -14,9 +14,10 @@ public class ControlPanel extends JPanel {
     JButton exitBtn = new JButton("Exit");
     JButton loadBtn = new JButton("Load");
     JButton saveBtn = new JButton("Save");
-    JButton resetBtn = new JButton("Reset");
 
-    File filePath = new File("C:/Users/Teo/OneDrive/Desktop/anul_2/sem_2/java/LAB/lab06/savePoza.png");
+    JButton newGameBtn = new JButton("Create new game");
+
+    File filePath = new File("C:/Users/Teo/OneDrive/Desktop/anul_2/sem_2/java/LAB/lab06/gamepoza.png");
 
 
     public ControlPanel(MainFrame frame) {
@@ -29,14 +30,17 @@ public class ControlPanel extends JPanel {
         //setLayout(new GridLayout(1, 4));
         add(exitBtn);
         add(loadBtn);
-        add(resetBtn);
+        add(newGameBtn);
         add(saveBtn);
         exitBtn.addActionListener(this::exitGame);
         saveBtn.addActionListener(this::saveGame);
-        resetBtn.addActionListener(this::resetGame);
+        newGameBtn.addActionListener(this::createNewGame);
         loadBtn.addActionListener(this::loadGame);
     }
 
+    private void createNewGame(ActionEvent e) {
+        frame.canvas.createBoard();
+    }
 
     private void loadGame(ActionEvent e) {
         frame.canvas.createBoard();
@@ -62,15 +66,9 @@ public class ControlPanel extends JPanel {
         }
     }
 
-    private void resetGame(ActionEvent e) {
-        frame.configPanel.setGridSizeHorizontal(0);
-        frame.configPanel.setGridSizeVertical(0);
-        frame.canvas.createBoard();
-    }
-
-
     private void exitGame(ActionEvent e) {
         frame.dispose();
+        System.exit(0);
     }
 }
 

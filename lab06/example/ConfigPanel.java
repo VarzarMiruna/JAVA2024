@@ -12,18 +12,51 @@ import java.io.File;
 import java.io.IOException;
 
 public class ConfigPanel extends JPanel {
+    private int sizeHorizontal; // dimensiunea orizontala a grilei
+    private int sizeVertical; //dimensiunea verticala a grilei
+    private int[][] stones; //matricea pt a stoca nodurile
+
+
+    MainFrame frame;
+    JButton createButton;
+
     JLabel labelHorizontal;
     JLabel labelVertical;
-    JTextField gridSizeInputHorizontal;
-    JTextField gridSizeInputVertical;
-    JButton newGameButton;
 
-    final MainFrame frame;
+    JSpinner spinnerHorizontal;
+    JSpinner spinnerVertical;
 
-    private int sizeHorizontal; // Dimensiunea orizontală a grilei
-    private int sizeVertical; //Dimensiunea verticală a grilei
-    private int[][] stones; //Matrice pentru a stoca pietrele plasate pe tablă
 
+    public int getSizeHorizontal() {
+        return sizeHorizontal;
+    }
+    public int getSizeVertical() {
+        return sizeVertical;
+    }
+
+    public void setSizeHorizontal(int sizeHorizontal) {
+        this.sizeHorizontal = sizeHorizontal;
+    }
+    public void setSizeVertical(int sizeVertical) {
+        this.sizeVertical = sizeVertical;
+    }
+
+    //gettere si settere pentru spinnere
+    public JSpinner getSpinnerHorizontal() {
+        return spinnerHorizontal;
+    }
+
+    public JSpinner getSpinnerVertical() {
+        return spinnerVertical;
+    }
+
+    public void setSpinnerVertical(JSpinner spinnerVertical) {
+        this.spinnerVertical = spinnerVertical;
+    }
+
+    public void setSpinnerHorizontal(JSpinner spinnerHorizontal) {
+        this.spinnerHorizontal = spinnerHorizontal;
+    }
 
 
     public ConfigPanel(MainFrame frame) {
@@ -32,39 +65,28 @@ public class ConfigPanel extends JPanel {
     }
 
     private void init() {
-        labelHorizontal = new JLabel("Grid size (horizontal):");
-        labelVertical = new JLabel("Grid size (vertical):");
-        gridSizeInputHorizontal = new JTextField(5);
-        gridSizeInputVertical = new JTextField(5);
-        newGameButton = new JButton("New Game");
+        //create the label and the spinner
+        labelHorizontal = new JLabel("Nr linii Orizontale: ");
+        spinnerHorizontal = new JSpinner(new SpinnerNumberModel(3, 2, 100, 1));
+        spinnerHorizontal.addChangeListener(e -> {
+            sizeHorizontal = (Integer) spinnerHorizontal.getValue();
+            frame.canvas.createBoard();
+        });
 
-        setLayout(new FlowLayout());
         add(labelHorizontal);
-        add(gridSizeInputHorizontal);
+        add(spinnerHorizontal);
+
+        labelVertical = new JLabel("Nr linii Verticale: ");
+        spinnerVertical = new JSpinner(new SpinnerNumberModel(3, 2, 100, 1));
+        spinnerVertical.addChangeListener(e -> {
+            sizeVertical = (Integer) spinnerVertical.getValue();
+            frame.canvas.createBoard();
+        });
+
         add(labelVertical);
-        add(gridSizeInputVertical);
-        add(newGameButton);
+        add(spinnerVertical);
     }
 
-    // Implement methods to retrieve grid size input for horizontal and vertical dimensions
-    public int getGridSizeHorizontal() {
-        return Integer.parseInt(gridSizeInputHorizontal.getText());
-    }
 
-    public int getGridSizeVertical() {
-        return Integer.parseInt(gridSizeInputVertical.getText());
-    }
-
-    // Setter pentru gridSizeHorizontal
-    public void setGridSizeHorizontal(int gridSizeHorizontal) {
-        this.gridSizeInputHorizontal = gridSizeInputHorizontal; // Actualizează variabila de instanță
-        gridSizeInputHorizontal.setText(String.valueOf(gridSizeInputHorizontal)); // Actualizează interfața grafică
-    }
-
-    // Setter pentru gridSizeVertical
-    public void setGridSizeVertical(int gridSizeVertical) {
-        this.gridSizeInputVertical = gridSizeInputVertical; // Actualizează variabila de instanță
-        gridSizeInputVertical.setText(String.valueOf(gridSizeInputVertical)); // Actualizează interfața grafică
-    }
 }
 

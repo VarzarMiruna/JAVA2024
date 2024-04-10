@@ -14,7 +14,7 @@ public class MainFrame extends JFrame {
     DrawingPanel canvas;
     
     public MainFrame() {
-        frame = new JFrame("Laborator 6");
+        frame = new JFrame("Laborator bun 6");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setVisible(true);
         frame.pack();
@@ -23,7 +23,7 @@ public class MainFrame extends JFrame {
 
     private void init() {
         configPanel = new ConfigPanel(this);
-        canvas = new DrawingPanel(this);
+       //canvas = new DrawingPanel(this);
         controlPanel = new ControlPanel(this);
         // arrange the components in the container (frame)
         // JFrame uses a BorderLayout by default
