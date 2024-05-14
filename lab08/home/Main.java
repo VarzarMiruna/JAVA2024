@@ -61,7 +61,7 @@ public class Main {
             }
 
 
-            /*String databasePath = "D:\\sem_2\\java\\LAB\\lab08\\booklist.csv";
+            /*String databasePath = "D:\sem_2\java\LAB\lab08\src\main\java\home\files\booklist.csv";
             var inserter = new DataImport();
             inserter.insert(databasePath);
             System.out.println(books.findAll());
