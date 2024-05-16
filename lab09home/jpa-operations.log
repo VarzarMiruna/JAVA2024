@@ -1,0 +1,104 @@
+May 15, 2024 3:03:54 PM home.Main main
+INFO: Author creation took 377 milliseconds
+May 15, 2024 3:03:55 PM home.Main main
+INFO: Finding author by name took 616 milliseconds
+May 15, 2024 3:03:55 PM home.Main main
+INFO: Genre creation took 7 milliseconds
+May 15, 2024 3:08:53 PM home.Main main
+INFO: Author creation took 114 milliseconds
+May 15, 2024 3:08:53 PM home.Main main
+INFO: Finding author by name took 80 milliseconds
+May 15, 2024 3:08:54 PM home.Main main
+INFO: Genre creation took 20 milliseconds
+May 15, 2024 3:49:15 PM home.Main main
+INFO: Author creation took 140 milliseconds
+May 15, 2024 3:49:15 PM home.Main main
+INFO: Finding author by name took 51 milliseconds
+May 15, 2024 3:49:15 PM home.Main main
+INFO: Genre creation took 13 milliseconds
+May 15, 2024 3:49:15 PM home.Main main
+INFO: Book creation took 40 milliseconds
+May 15, 2024 3:56:23 PM home.Main main
+INFO: Author creation took 125 milliseconds
+May 15, 2024 3:56:23 PM home.Main main
+INFO: Finding author by name took 51 milliseconds
+May 15, 2024 3:56:23 PM home.Main main
+INFO: Genre creation took 14 milliseconds
+May 15, 2024 3:56:23 PM home.Main main
+INFO: Finding author by name took 8 milliseconds
+May 15, 2024 3:56:23 PM home.Main main
+INFO: PublishingHouse creation took 55 milliseconds
+May 15, 2024 3:56:23 PM home.Main main
+INFO: Book creation took 28 milliseconds
+May 15, 2024 3:57:38 PM home.Main main
+INFO: Author creation took 133 milliseconds
+May 15, 2024 3:57:38 PM home.Main main
+INFO: Finding author by name took 61 milliseconds
+May 15, 2024 3:57:38 PM home.Main main
+INFO: Genre creation took 24 milliseconds
+May 15, 2024 3:57:38 PM home.Main main
+INFO: Finding author by name took 17 milliseconds
+May 15, 2024 3:57:38 PM home.Main main
+INFO: PublishingHouse creation took 15 milliseconds
+May 15, 2024 3:57:38 PM home.Main main
+INFO: Book creation took 77 milliseconds
+May 15, 2024 4:03:22 PM home.Main main
+INFO: Author creation took 114 milliseconds
+May 15, 2024 4:03:23 PM home.Main main
+INFO: Finding author by name took 51 milliseconds
+May 15, 2024 4:03:23 PM home.Main main
+INFO: Genre creation took 14 milliseconds
+May 15, 2024 4:03:23 PM home.Main main
+INFO: Finding author by name took 6 milliseconds
+May 15, 2024 4:03:23 PM home.Main main
+INFO: PublishingHouse creation took 7 milliseconds
+May 15, 2024 4:03:23 PM home.Main main
+INFO: Book creation took 10 milliseconds
+May 15, 2024 4:05:43 PM home.Main main
+INFO: Author creation took 162 milliseconds
+May 15, 2024 4:05:43 PM home.Main main
+INFO: Finding author by name took 68 milliseconds
+May 15, 2024 4:05:43 PM home.Main main
+INFO: Genre creation took 15 milliseconds
+May 15, 2024 4:05:43 PM home.Main main
+INFO: Finding author by name took 28 milliseconds
+May 15, 2024 4:05:43 PM home.Main main
+INFO: PublishingHouse creation took 5 milliseconds
+May 15, 2024 4:05:43 PM home.Main main
+INFO: Book creation took 29 milliseconds
+May 15, 2024 4:08:33 PM home.Main main
+INFO: Author creation took 369 milliseconds
+May 15, 2024 4:08:33 PM home.Main main
+INFO: Finding author by name took 55 milliseconds
+May 15, 2024 4:08:33 PM home.Main main
+INFO: Genre creation took 10 milliseconds
+May 15, 2024 4:08:33 PM home.Main main
+INFO: Finding author by name took 5 milliseconds
+May 15, 2024 4:08:33 PM home.Main main
+INFO: PublishingHouse creation took 4 milliseconds
+May 15, 2024 4:08:33 PM home.Main main
+INFO: Book creation took 8 milliseconds
+May 15, 2024 6:33:30 PM home.Main main
+INFO: Author creation took 85 milliseconds
+May 15, 2024 6:33:30 PM home.Main main
+INFO: Finding author by name took 66 milliseconds
+May 15, 2024 6:33:30 PM home.Main main
+INFO: Genre creation took 16 milliseconds
+May 15, 2024 6:33:30 PM home.Main main
+INFO: Finding author by name took 6 milliseconds
+May 15, 2024 6:33:30 PM home.Main main
+INFO: PublishingHouse creation took 6 milliseconds
+May 15, 2024 6:33:30 PM home.Main main
+INFO: Book creation took 12 milliseconds
+May 15, 2024 6:34:42 PM home.Main main
+INFO: Author creation took 97 milliseconds
+May 15, 2024 6:34:42 PM home.Main main
+INFO: Finding author by name took 62 milliseconds
+May 15, 2024 6:34:42 PM home.Main main
+INFO: Genre creation took 7 milliseconds
+May 15, 2024 6:34:42 PM home.Main main
+INFO: Finding author by name took 5 milliseconds
+May 15, 2024 6:34:42 PM home.Main main
+INFO: PublishingHouse creation took 3 milliseconds
+May 15, 2024 6:34:42 PM home.Main main
+INFO: Book creation took 6 milliseconds

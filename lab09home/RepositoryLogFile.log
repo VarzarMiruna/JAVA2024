@@ -1,0 +1,14 @@
+May 15, 2024 2:14:40 PM home.repository.AbstractRepository save
+INFO: Save completed in 108 ms
+May 15, 2024 2:14:40 PM home.repository.AbstractRepository findById
+INFO: Find by ID completed in 7 ms
+May 15, 2024 2:14:40 PM home.repository.AbstractRepository save
+INFO: Save completed in 20 ms
+May 15, 2024 2:14:40 PM home.repository.AbstractRepository findById
+INFO: Find by ID completed in 0 ms
+May 15, 2024 2:14:40 PM home.repository.AbstractRepository findAll
+INFO: Find all completed in 83 ms
+May 15, 2024 2:14:40 PM home.repository.AbstractRepository delete
+INFO: Delete completed in 230 ms
+May 15, 2024 2:14:40 PM home.repository.AbstractRepository findById
+INFO: Find by ID completed in 15 ms
