@@ -1,0 +1,68 @@
+.title {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-text-fill: hotpink;
+}
+
+.add-button {
+    -fx-background-color: pink;
+    -fx-border-color: hotpink;
+    -fx-border-width: 1px;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+.findById-button {
+    -fx-background-color: pink;
+    -fx-border-color: hotpink;
+    -fx-border-width: 1px;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+.findByName-button {
+    -fx-background-color: pink;
+    -fx-border-color: hotpink;
+    -fx-border-width: 1px;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+.delete-button {
+    -fx-background-color: pink;
+    -fx-border-color: hotpink;
+    -fx-border-width: 1px;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+.create-button {
+    -fx-background-color: pink;
+    -fx-border-color: hotpink;
+    -fx-border-width: 1px;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+.cancel-button {
+    -fx-background-color: pink;
+    -fx-border-color: hotpink;
+    -fx-border-width: 1px;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+.customer-list {
+    -fx-font-size: 16px;
+    -fx-background-color: pink;
+}
+.admin-list {
+    -fx-font-size: 16px;
+    -fx-background-color: pink;
+}
+.product-list {
+    -fx-font-size: 16px;
+    -fx-background-color: pink;
+}
+.wishing-list {
+    -fx-font-size: 16px;
+    -fx-background-color: pink;
+}
+.order-list {
+    -fx-font-size: 16px;
+    -fx-background-color: pink;
+}
